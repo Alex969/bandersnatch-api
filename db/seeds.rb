@@ -12,6 +12,7 @@ Quiz.create(question: 'What is the capital of France?', answer1: 'London', answe
 Quiz.create(question: 'What is 2 + 2?', answer1: '1', answer2: '5', answer3: '8', answer4: '4', correct_answer: '4')
 Quiz.create(question: 'What is the fastest land mammal?', answer1: 'Dog', answer2: 'Wolf', answer3: 'Hippo', answer4: 'Cheetah', correct_answer: 'Cheetah')
 
+User.create(name: 'Alan', score: 3, questions_answered: 3)
 # cosmetic change
 
 
