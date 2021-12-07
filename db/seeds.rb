@@ -14,5 +14,3 @@ Quiz.create(story: '“I’m impressed by the intellect you’ve skilfully acqui
 
 User.create(name: 'Alan', score: 3, questions_answered: 3)
 # cosmetic change
-
-
