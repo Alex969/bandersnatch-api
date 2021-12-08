@@ -30,7 +30,7 @@ module BandersnatchApi
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins 'https://safe-sea-12739.herokuapp.com/https://bandersnatch-frontend.herokuapp.com'
-        headers: :any, methods: [:get, :post, :options], credentials: true
+        resource '', headers: :any, methods: [:get, :post, :options], credentials: true
 
       end
     end
